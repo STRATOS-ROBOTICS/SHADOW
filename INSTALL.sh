@@ -6,6 +6,7 @@
 #//install dependancies
 sudo apt update
 sudo apt install libva-glx2 libvdpau1 libva-drm2 libcurl4
+sudo apt install intel-media-va-driver-non-free
 sudo usermod -a -G input $USER
 
 #//download appimage if not already
